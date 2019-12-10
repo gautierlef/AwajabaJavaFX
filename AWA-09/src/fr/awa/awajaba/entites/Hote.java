@@ -3,7 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
 package fr.awa.awajaba.entites;
+
+import java.util.List;
 
 /**
  *
@@ -11,9 +14,9 @@ package fr.awa.awajaba.entites;
  */
 public class Hote {
     private Membre membre;
-    private Specialite specialite;
+    private List<Specialite> specialite;
 
-    public Hote(Membre membre, Specialite specialite) {
+    public Hote(Membre membre, List<Specialite> specialite) {
         this.membre = membre;
         this.specialite = specialite;
     }
@@ -26,11 +29,11 @@ public class Hote {
         this.membre = membre;
     }
 
-    public Specialite getSpecialite() {
+    public List<Specialite> getSpecialite() {
         return specialite;
     }
 
-    public void setSpecialite(Specialite specialite) {
+    public void setSpecialite(List<Specialite> specialite) {
         this.specialite = specialite;
     }
 }

@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
 package fr.awa.awajaba.entites;
 
 /**
@@ -22,5 +23,10 @@ public class Specialite {
 
     public void setLibelle(String libelle) {
         this.libelle = libelle;
+    }
+    
+    @Override
+    public String toString(){
+        return (this.libelle);
     }
 }

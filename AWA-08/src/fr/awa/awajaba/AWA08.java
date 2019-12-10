@@ -8,8 +8,6 @@ package fr.awa.awajaba;
 import fr.awa.awajaba.entites.Repas;
 import fr.awa.awajaba.modeles.ModeleAwajaba;
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
 import javafx.application.Application;
 import static javafx.application.Application.launch;
 import javafx.application.Platform;
